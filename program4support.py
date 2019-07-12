@@ -121,12 +121,3 @@ def generate_support(list_mesh, list_z):
     else:
       continue
   return long_support ### サポートの長さ
-
-
-
-
-
-
-
-
-
