@@ -30,5 +30,5 @@ def show(filename_bunny):
   pyplot.show()
 
 if __name__ == "__main__":
-  filename_bunny = 'D:\\Python\\20190613\\stl_sample\\Bunny-LowPoly.stl'
+  filename_bunny = 'B:\\Python\\stl_master\\stl_sample\\panel.stl'
   show(filename_bunny)
