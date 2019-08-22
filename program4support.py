@@ -89,9 +89,7 @@ def get_mesh(p, your_mesh):
       list_main = [normal.tolist(), v0.tolist(), v1.tolist(), v2.tolist(), list_point] ## 3
       
       list_mesh01.append(list_main) ## 4
-      print(list_mesh01)
       count += 1
-  print("三角形の数は:{}".format(count))
   result = generate_support(list_mesh01, list_z)
   return result
 
